@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ekalla Jerius Kebila — Software Engineer</title>
+<meta name="description" content="Portfolio of Ekalla Jerius Kebila, Software Engineer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <span class="logo">EJK<span class="logo__dot">.</span></span>
+    <nav class="nav">
+      <a href="#work">work</a>
+      <a href="#stack">stack</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero__text">
+      <p class="eyebrow">$ ./introduce.sh</p>
+      <h1 class="h1">Ekalla Jerius<br>Kebila</h1>
+      <p class="role">Software&nbsp;Engineer</p>
+      <p class="hero__lede">
+        I'm a Software Engineer dedicated to creating modern web and
+        mobile applications that solve real-world problems. I believe
+        great software isn't just functional — it's intuitive,
+        scalable, and built with people in mind.
+      </p>
+      <div class="hero__cta">
+        <a href="#work" class="btn btn--primary">See the work</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+    </div>
+
+    <div class="terminal" aria-hidden="false">
+      <div class="terminal__bar">
+        <span class="dot dot--r"></span>
+        <span class="dot dot--y"></span>
+        <span class="dot dot--g"></span>
+        <span class="terminal__title">zsh — whoami</span>
+      </div>
+      <div class="terminal__body" id="terminalBody">
+        <p><span class="prompt">$</span> whoami</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK / SKILLS -->
+  <section id="stack" class="stack wrap">
+    <div class="section-head">
+      <p class="eyebrow">$ cat package.json</p>
+      <h2 class="h2">Stack &amp; tools</h2>
+    </div>
+
+    <div class="pkg">
+      <p class="pkg__line"><span class="pkg__key">"name"</span>: <span class="pkg__val">"ekalla-kebila"</span>,</p>
+      <p class="pkg__line"><span class="pkg__key">"role"</span>: <span class="pkg__val">"software-engineer"</span>,</p>
+      <p class="pkg__line"><span class="pkg__key">"dependencies"</span>: {</p>
+
+      <div class="tag-grid">
+        <span class="tag">JavaScript</span>
+        <span class="tag">TypeScript</span>
+        <span class="tag">React</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">Express</span>
+        <span class="tag">PostgreSQL</span>
+        <span class="tag">MongoDB</span>
+        <span class="tag">Tailwind CSS</span>
+        <span class="tag">Git &amp; GitHub</span>
+        <span class="tag">Docker</span>
+        <span class="tag">REST APIs</span>
+        <span class="tag">Next.js</span>
+      </div>
+
+      <p class="pkg__line">}</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="work" class="work wrap">
+    <div class="section-head">
+      <p class="eyebrow">$ ls ./projects</p>
+      <h2 class="h2">Selected work</h2>
+      <p class="section-note">Edit these — swap in your real repos, links and screenshots.</p>
+    </div>
+
+    <div class="repo-grid">
+
+      <article class="repo repo--featured">
+        <div class="repo__top">
+          <span class="repo__icon">⭐</span>
+          <h3 class="repo__name">real-estate-platform</h3>
+          <span class="repo__badge">Featured</span>
+        </div>
+        <p class="repo__desc">
+          A full real estate platform for browsing, managing, and
+          searching properties — built for both buyers and agents.
+        </p>
+        <ul class="repo__features">
+          <li>Property listing &amp; search</li>
+          <li>Interactive maps</li>
+          <li>User authentication</li>
+          <li>Agent dashboards &amp; property management</li>
+          <li>Favorites &amp; saved searches</li>
+          <li>AI-powered property recommendations</li>
+          <li>Backend API</li>
+          <li>Responsive, mobile-friendly design</li>
+        </ul>
+        <div class="repo__tags">
+          <span>Flutter</span><span>Node.js</span><span>REST API</span>
+        </div>
+        <div class="repo__links">
+          <a href="#" class="repo__link">Live demo →</a>
+          <a href="#" class="repo__link">Source →</a>
+        </div>
+      </article>
+
+      <article class="repo">
+        <div class="repo__top">
+          <span class="repo__icon">📁</span>
+          <h3 class="repo__name">portfolio-website</h3>
+        </div>
+        <p class="repo__desc">
+          This site — a personal portfolio designed and built from
+          scratch to showcase my work and background.
+        </p>
+        <div class="repo__tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <div class="repo__links">
+          <a href="https://ekalla.github.io" class="repo__link" target="_blank" rel="noopener">Live demo →</a>
+          <a href="https://github.com/Ekalla" class="repo__link" target="_blank" rel="noopener">Source →</a>
+        </div>
+      </article>
+
+      <article class="repo repo--add">
+        <div class="repo__top">
+          <span class="repo__icon">＋</span>
+          <h3 class="repo__name">your-next-project</h3>
+        </div>
+        <p class="repo__desc">
+          Add as many of these as you have real projects for.
+          Three to six strong ones beats a dozen thin ones.
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact wrap">
+    <div class="section-head">
+      <p class="eyebrow">$ ./contact.sh</p>
+      <h2 class="h2">Let's build something</h2>
+    </div>
+
+    <div class="contact__grid">
+      <p class="contact__lede">
+        Open to full-time roles, freelance work, and interesting
+        problems in general. The fastest way to reach me is email.
+      </p>
+
+      <ul class="contact__list">
+        <li>
+          <span class="contact__label">email</span>
+          <a href="mailto:kelixtech@gmail.com">kelixtech@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact__label">github</span>
+          <a href="https://github.com/Ekalla" target="_blank" rel="noopener">github.com/Ekalla</a>
+        </li>
+        <li>
+          <span class="contact__label">linkedin</span>
+          <span class="contact__plain">coming soon</span>
+        </li>
+        <li>
+          <span class="contact__label">location</span>
+          <span class="contact__plain">Available remote / on-site</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer wrap">
+  <p>© <span id="year"></span> Ekalla Jerius Kebila. Built from scratch, no template.</p>
+  <a href="#top" class="footer__top">back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
