@@ -8,13 +8,13 @@ const body = document.getElementById("terminalBody");
 const lines = [
   { type: "out", text: "Ekalla Jerius Kebila" },
   { type: "out", text: "Software Engineer." },
-  { type: "cmd", text: "Bio" },
+  { type: "cmd", text: "cat bio.txt" },
   {
     type: "out",
     text:
       "Building modern web & mobile apps that solve real\nproblems. Experience in software development,\ntelecom, and application design. Currently building\na real estate platform, and always leveling up in\nbackend, cloud, and AI integration.",
   },
-  { type: "cmd", text: "Contact" },
+  { type: "cmd", text: "./contact.sh" },
   { type: "out", text: "scroll down, or just email me." },
 ];
 
