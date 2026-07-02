@@ -8,13 +8,13 @@ const body = document.getElementById("terminalBody");
 const lines = [
   { type: "out", text: "Ekalla Jerius Kebila" },
   { type: "out", text: "Software Engineer." },
-  { type: "cmd", text: "cat bio.txt" },
+  { type: "cmd", text: "Bio" },
   {
     type: "out",
     text:
       "Building modern web & mobile apps that solve real\nproblems. Experience in software development,\ntelecom, and application design. Currently building\na real estate platform, and always leveling up in\nbackend, cloud, and AI integration.",
   },
-  { type: "cmd", text: "./contact.sh" },
+  { type: "cmd", text: "Contact" },
   { type: "out", text: "scroll down, or just email me." },
 ];
 
@@ -28,7 +28,7 @@ function renderStatic() {
         : `<p>${escapeHtml(l.text).replace(/\n/g, "<br>")}</p>`
     )
     .join("");
-  body.innerHTML = `<p><span class="prompt">$</span> whoami</p>` + html;
+  body.innerHTML = `<p><span class="prompt">$</span> who am i</p>` + html;
 }
 
 function escapeHtml(str) {
@@ -36,7 +36,7 @@ function escapeHtml(str) {
 }
 
 async function typeSequence() {
-  body.innerHTML = `<p><span class="prompt">$</span> whoami<span class="caret"></span></p>`;
+  body.innerHTML = `<p><span class="prompt">$</span> who am i<span class="caret"></span></p>`;
   await wait(400);
 
   for (const line of lines) {
